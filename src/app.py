@@ -17,7 +17,7 @@ db.Base.metadata.create_all(db.engine)
 # db.session.commit() 
 
 
-# devuelve la consulta si existe 
+# devuelve la consulta si existen 
 def student_check(student_id):
     res = db.session.query(Student).get(student_id)
     if not res:
