@@ -1,0 +1,9 @@
+# version: "3.1"
+
+services:
+  PruebaDocker:
+    container_name: PruebaDocker
+    image: arsenal204/devops02:latest
+    ports:
+      - 80:5000
+    restart: always
