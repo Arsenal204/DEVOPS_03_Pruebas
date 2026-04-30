@@ -11,9 +11,9 @@ from models_db import Student
 db.Base.metadata.create_all(db.engine)
 
 # Añade Datos iniciales a la tabla
-# lista = [("Ana", 44), ("Ricardo", 37), ("Marina", 32)]
-# for x in lista:
-#     db.session.add(Student(x[0], x[1]))
+# listas = [("Ana", 44), ("Ricardo", 37), ("Marina", 32)]
+# for x in listas:
+# db.session.add(Student(x[0], x[1]))
 # db.session.commit() 
 
 
